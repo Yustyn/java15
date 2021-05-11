@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+
+            <h1>Задание 1</h1>
+            <p>Создать html-страницу с формой для логина пользователя и
+                галочкой «Запомнить меня». После заполнения формы вывести на экран: «Привет, Имя! Я тебя запомнил/не
+                запомнил».</p>
+
+            <form class="row justify-content-center task1" name="task1">
+                <div class="col-6">
+                    <label for="login">Your login:</label><br>
+                    <input type="text" name="login" id="login1"><br>
+
+                    <label for="password">Your password:</label><br>
+                    <input type="password" name="password" id="password1"><br>
+
+                    <label for="rememberMe">Remember me</label>
+                    <input type="checkbox" name="rememberMe" id="rememberMe"><br>
+                    <input type="button" value="Sign in" id="signIn1"><br>
+                    <a href="#" id="forgotPassword">Forgot password?</a>
+                </div>
+            </form>
+            <h1>Задание 2</h1>
+            <p>Создать html-страницу с формой для регистрации пользова-
+                теля. Форма должна состоять из указания почты, логина, пароля (2 раза). После заполнения формы вывести
+                на экран: «На почту такую-то отправлено письмо с подтверждением».</p>
+            <form action="" class="row task2" name="task2">
+
+                <div class="col-6">
+                    <label for="email2">Your email:</label><br>
+                    <input type="email" name="email2" id="email2"><br>
+
+                    <label for="password2">Your password:</label><br>
+                    <input type="password" name="password2" id="password2"><br>
+
+                </div>
+                <div class="col-6">
+                    <label for="login2">Your login:</label><br>
+                    <input type="login" name="login2" id="login2"><br>
+
+                    <label for="repPassword">Repeat password:</label><br>
+                    <input type="password" name="repPassword" id="repPassword2">
+                </div>
+                <input type="button" value="Sign Up" id="signUp2">
+            </form>
+
+            <h1>Задание 3</h1>
+            <p>Создать html-страницу с формой для заполнения информации о пользователе. После заполнения формы вывести
+                всю информацию в текстовом виде.</p>
+
+            <form action="" class="row task3" name="task3">
+
+                <div class="col-6">
+                    <label for="firstName3">Firstname:</label><br>
+                    <input type="firstname" name="firstName3" id="firstName3"><br>
+
+                    <label for="birthDay3">Birthday:</label> <br>
+                    <input type="date" name="birthDay3" id="birthDay3"><br>
+
+                    <label for="country3">Country:</label><br>
+                    <input type="text" list="myList2" id="myList3">
+                    <datalist id="myList2">
+                        <option>Україна</option>
+                        <option>Білорусь</option>
+                        <option>Польща</option>
+                        <option>Чехія</option>
+                        <option>Угорщина</option>
+                    </datalist>
+                </div>
+                <div class="col-6">
+                    <label for="lastName3">Last name:</label><br>
+                    <input type="lastname" name="lastName3" id="lastName3"><br>
+                    <br>
+
+                    <label for="gender">Gender:</label> <input type="radio" name="gender" id="male" value="male"><label
+                        for="male">Male</label>
+
+                    <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
+                    <br>
+
+                    <label for="country3">City:</label><br>
+                    <input type="text" list="myList4" id="myList5">
+                    <datalist id="myList4">
+                    </datalist>
+                </div>
+                <div class="checkbox33">
+                    <label for="checkbox3">Skills:</label>
+
+                    <input type="checkbox" name="checkbox3" id="html3"><label for="html3">HTML</label>
+
+                    <input type="checkbox" name="checkbox3" id="css3" value="CSS">
+                    <label for="css3">CSS</label>
+
+                    <input type="checkbox" name="checkbox3" id="js3" value="JS">
+                    <label for="js3">JS</label>
+
+                    <input type="checkbox" name="checkbox3" id="php3" value="PHP">
+                    <label for="php3">PHP</label>
+
+                    <input type="checkbox" name="checkbox3" id="c3" value="C++">
+                    <label for="c3">C++</label>
+
+                    <input type="checkbox" name="checkbox3" id="java3" value="JAVA">
+                    <label for="java3">JAVA</label>
+
+                    <input type="checkbox" name="checkbox3" id="c23" value="C#">
+                    <label for="c23">C#</label>
+                    <br>
+
+                    <input type="button" value="Save" id="save3">
+                </div>
+                <table class="d-none" id="result">
+
+                </table>
+            </form>
+            <h2>Задание 4</h2>
+            <p>Создать html-страницу с палитрой цветов и формой для добавления нового цвета. После заполнения формы
+                новый цвет должен добавиться в палитру.</p>
+            <form action="" class="row task4 justify-content-center" name="task4">
+
+                <div class="col-6">
+                    <label for="R4">R</label>
+                    <input type="text" name="R4" id="R4">
+                    <label for="G4">G</label>
+                    <input type="text" name="G4" id="G4">
+                    <label for="B4">B</label>
+                    <input type="text" name="B4" id="B4">
+                    <br>
+                    <input type="button" value="Add color" id="clr4">
+                </div>
+
+                <div class="col-12" id="colorplace4">
+
+                </div>
+
+            </form>
+
+            <h2>Задание 5</h2>
+            <p>Написать html-страницу для создания теста из любого количества вопросов. К вопросу можно добавлять один
+                верный и один неверный ответ. При добавлении каждого вопроса отображать его в списке над формой.</p>
+            <form action="" class="task5 row">
+                <ul class="col-12" id="list5">
+                    <li><b>All questions:</b></li>
+                </ul>
+                <hr>
+                <b>Add new question:</b><br>
+
+                <label for="question5">Question:</label>
+                <input type="text" name="question5" id="question5"><br>
+
+                <label for="canswer">Correct answer:</label>
+                <input type="text" name="canswer" id="canswer"><br>
+
+                <label for="wanswer">Wrong answer:</label>
+                <input type="text" name="wanswer" id="wanswer"><br>
+                <input type="button" value="Add" id="add5">
+            </form>
+        </div>
+
+
+        <script src="main.js"></script>
+</body>
+
+</html>

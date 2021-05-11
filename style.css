@@ -1,0 +1,71 @@
+.row {
+    background-color: rgb(255, 180, 167);
+    padding: 20px;
+}
+
+#login1, #password1, #save3 {
+    width: 100%;
+}
+
+#signIn1, #signUp2 {
+    width: 100%;
+    background-color: rgb(123, 123, 255);
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+.task2 input {
+    width: 100%;
+}
+
+#save3 {
+    margin-top: 20px;
+}
+
+.checkbox33 {
+    width: 10px;
+}
+
+.d-none {
+    display: none;
+}
+
+#save3{
+    margin: 10px;
+}
+
+
+.task4 input {
+    width: 50px;
+}
+.task4 #clr4 {
+    width: 210px;
+    margin: 5px;
+}
+
+.colorplace {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 5px;
+}
+
+.myColor {
+    width: 200px;
+    float: left;
+}
+
+.task5 #list5{
+    list-style-type: none;
+}
+
+.task5 label {
+    width: 20%;
+    margin-bottom: 10px !important;
+}
+
+.task5 #question5, #canswer, #wanswer {
+    width: 80%;
+    margin-bottom: 10px !important;
+}
